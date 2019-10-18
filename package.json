@@ -1,0 +1,43 @@
+{
+  "name": "sda-broker",
+  "version": "1.0.0",
+  "description": "MQTT Broker Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azrrael-exe/sda-broker.git"
+  },
+  "keywords": [
+    "MQTT",
+    "Broker",
+    "IOT"
+  ],
+  "author": "vcamargo.e@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azrrael-exe/sda-broker/issues"
+  },
+  "homepage": "https://github.com/Azrrael-exe/sda-broker#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "aedes": "^0.39.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "winston": "^3.2.1"
+  }
+}
